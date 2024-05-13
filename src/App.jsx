@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
+import Resume from './components/Resume'
 function App() {
   const dave = "DAVID IS THE MAN"
 
@@ -15,6 +16,7 @@ function App() {
         <h3>howdy</h3>
         <h4>bonjour</h4> 
         <h5>hola</h5> 
+        <Resume />
     </>
   )
 }

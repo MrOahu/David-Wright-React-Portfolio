@@ -3,8 +3,10 @@
 function About(){
     return(
         <div>
-            <h1>Oh man, I shot Marvin in the face!</h1>
-            <h2>Hello, my name is Inigo Montoya. You killed my father. Prepare to die.</h2>
+
+            <h1 className="about">David Wright is an aspiring web developer and technology professional who is currently enrolled in the UCF Coding Bootcamp. He is set to graduate in June 2024.</h1>
+            {/* <img src="hello" alt="hello" /> */}
+
         </div>
     )
 }

@@ -1,8 +1,19 @@
 function Resume(){
     return(
         <div>
-            <h1>Oh man, I shot Marvin in the face!</h1>
-            <h2>Hello, my name is Inigo Montoya. You killed my father. Prepare to die.</h2>
+                <h1>Front End Topics</h1>
+
+                <ul className="resumelist">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+
+                <h1>Back End Topics</h1>
+                <ul className="resumelist">
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                </ul>
         </div>
     )
 }
