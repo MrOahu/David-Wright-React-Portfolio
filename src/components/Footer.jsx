@@ -1,8 +1,9 @@
 function Footer(){
     return(
         <div>
-            <h1>Oh man, I shot Marvin in the face!</h1>
-            <h2>Hello, my name is Inigo Montoya. You killed my father. Prepare to die.</h2>
+            <h1>GitHub: https://github.com/MrOahu</h1>
+            <h1>LinkedIn: https://www.linkedin.com/in/david-wright-305/</h1>
+            <h1>X/Twitter: https://twitter.com/MetalheadMystic</h1>
         </div>
     )
 }

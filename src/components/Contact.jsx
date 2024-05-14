@@ -1,9 +1,16 @@
 function Contact(){
     return(
+        
         <div>
-            <h1>Oh man, I shot Marvin in the face!</h1>
-            <h2>Hello, my name is Inigo Montoya. You killed my father. Prepare to die.</h2>
+        
+        <h1>Name:</h1>
+        <h1>Email Address:</h1>
+        <h1>Message:</h1>
+        
         </div>
-    )
+
+    ) 
+        
+    
 }
 export default Contact
