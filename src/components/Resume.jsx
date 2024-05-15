@@ -1,6 +1,8 @@
+import screenshot from "../assets/screenshot.png"
 function Resume(){
     return(
         <div>
+            <h3>Check out my <a href = {screenshot} download>resume.</a></h3>
                 <h1>Front End Topics</h1>
 
                 <ul className="resumelist">
