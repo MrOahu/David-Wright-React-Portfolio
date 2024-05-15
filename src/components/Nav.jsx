@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 function Nav(){
     return(
         <div>
-            <ul>
+            <ul className="nav-list">
 
                 <li>
                     <Link to="/">About Me</Link>
