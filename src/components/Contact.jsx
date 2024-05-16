@@ -85,6 +85,10 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      <ul>
+        <li>Email: davidwright7793@gmail.com</li>
+        <li>Mobile Phone: 305-923-1760</li>
+      </ul>
     </div>
   );
 }

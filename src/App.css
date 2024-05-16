@@ -5,8 +5,8 @@
 
 }
 
-.about{
-  color: red;
+.about {
+  color: blue;
 }
 
 .resumelist {
@@ -18,7 +18,7 @@
 
 }
 
-.nav-list li{
+.nav-list li {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
