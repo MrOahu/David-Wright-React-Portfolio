@@ -1,3 +1,4 @@
+import ProjectCard from "./ProjectCard"
 
 function Portfolio(){
     const myProjects = [
@@ -31,7 +32,13 @@ function Portfolio(){
     return(
         <div>
             <h1>Here are some of David Wright's projects in React.</h1>
-            
+            {
+                myProjects.map(project => {
+                    return(
+                        <ProjectCard />
+                    )
+                })
+            }
         </div>
     )
 }
