@@ -3,28 +3,28 @@ import ProjectCard from "./ProjectCard"
 function Portfolio(){
     const myProjects = [
         {
-            title: "Project 1",
+            title: "Work Day Scheduler",
             imageUrl: "url to image",
-            githubUrl: "http://github.com",
-            liveUrl: "http://google.com"
+            githubUrl: "https://github.com/MrOahu/David-Wright-Work-Day-Scheduler/tree/main",
+            liveUrl: "https://mroahu.github.io/David-Wright-Work-Day-Scheduler"
         },
         {
-            title: "Project 2",
+            title: "Password Generator",
             imageUrl: "url to image",
-            githubUrl: "http://github.com",
-            liveUrl: "http://google.com"
+            githubUrl: "https://github.com/MrOahu/David-Wright-Password-Generator",
+            liveUrl: "https://mroahu.github.io/David-Wright-Password-Generator"
         },
         {
-            title: "Project 3",
+            title: "Note Taker",
             imageUrl: "url to image",
-            githubUrl: "http://github.com",
-            liveUrl: "http://google.com"
+            githubUrl: "https://github.com/MrOahu/David-Wright-Note-Taker",
+            liveUrl: "https://david-wright-note-taker-67000c0f3123.herokuapp.com"
         },
         {
-            title: "Project 4",
+            title: "Timed Coding Quiz",
             imageUrl: "url to image",
-            githubUrl: "http://github.com",
-            liveUrl: "http://google.com"
+            githubUrl: "https://github.com/MrOahu/David-Wright-Timed-Coding-Quiz",
+            liveUrl: "https://mroahu.github.io/David-Wright-Timed-Coding-Quiz/"
         },
     ]
 
@@ -35,7 +35,12 @@ function Portfolio(){
             {
                 myProjects.map(project => {
                     return(
-                        <ProjectCard />
+                        <ProjectCard
+                        title = {project.title}
+                        imageUrl = {project.imageUrl}
+                        githubUrl = {project.githubUrl}
+                        liveUrl = {project.liveUrl}
+                        />
                     )
                 })
             }
