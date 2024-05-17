@@ -2,6 +2,7 @@
 
   margin: 0 auto;
   padding: 2rem;
+  width: 100%;
 
 }
 
@@ -38,4 +39,29 @@
 
 .project-div div {
   margin: 15px;
+}
+
+.footer {
+  width: 100%;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+form input {
+  margin: 10px;
+}
+
+form textarea {
+  margin: 10px;
+
+}
+
+.footer-contact {
+  list-style-type: none;
 }

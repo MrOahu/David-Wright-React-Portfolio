@@ -55,7 +55,7 @@ function Contact() {
 
   return (
     <div className="container text-center">
-      <h1>Hello {userName}</h1>
+      <h1>Contact Me: {userName}</h1>
       <form className="form" onSubmit={handleFormSubmit}>
         <input
           value={email}
@@ -85,7 +85,7 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-      <ul>
+      <ul className = "footer-contact">
         <li>Email: davidwright7793@gmail.com</li>
         <li>Mobile Phone: 305-923-1760</li>
       </ul>
