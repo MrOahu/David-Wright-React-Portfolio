@@ -29,3 +29,13 @@
   width: 80px;
   height: 80px;
 }
+
+.project-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-div div {
+  margin: 15px;
+}

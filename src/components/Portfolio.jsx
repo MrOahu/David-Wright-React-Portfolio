@@ -36,6 +36,7 @@ function Portfolio(){
     return(
         <div>
             <h1>Here are some of David Wright's projects in React.</h1>
+            <div className="project-div">
             {
                 myProjects.map(project => {
                     return(
@@ -48,6 +49,7 @@ function Portfolio(){
                     )
                 })
             }
+            </div>
         </div>
     )
 }
