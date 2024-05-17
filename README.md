@@ -12,7 +12,7 @@ React, jsx, CSS, react-router-dom
 
 Deployed Application Link URL:
 
-GitHub Link URL: 
+GitHub Link URL: https://github.com/MrOahu/david-wright-react-portfolio
 
 ## Author
 
