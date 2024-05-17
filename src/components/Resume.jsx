@@ -1,4 +1,4 @@
-import screenshot from "../assets/screenshot.png"
+import screenshot from "../assets/github_logo.png"
 function Resume(){
     return(
         <div>
