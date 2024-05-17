@@ -16,6 +16,7 @@ function Resume(){
                 <ul className="resumelist">
                     <li>Node.js</li>
                     <li>Express.js</li>
+                    <li>MySql</li>
                 </ul>
         </div>
     )
