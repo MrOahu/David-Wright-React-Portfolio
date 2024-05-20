@@ -78,7 +78,7 @@ function Contact() {
           type="message"
           placeholder="Message"
         />
-        <button type="submit">Submit</button>
+        <button className="contact-btn" type="submit">Submit</button>
       </form>
       {errorMessage && (
         <div>

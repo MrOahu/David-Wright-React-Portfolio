@@ -3,11 +3,15 @@
   margin: 0 auto;
   padding: 2rem;
   width: 100%;
+  background-color: darkcyan
 
 }
 
 .about {
-  color: blue;
+  background-color: darkcyan;
+  padding: 1rem;
+  border-radius: 8px;
+
 }
 
 .resumelist {
@@ -16,14 +20,18 @@
 
 .nav-list {
   list-style-type: none;
-
+  background-color: darkolivegreen;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-list li {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+
   margin: 10px;
+  background-color: darkgrey;
+  color: darkred
 }
 
 .footer-logo {
@@ -35,14 +43,26 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: lightseagreen;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .project-div div {
   margin: 15px;
+  background-color: darkorange;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px (0, 0, 0, 1);
 }
 
 .footer {
-  width: 100%;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 form {
@@ -64,4 +84,16 @@ form textarea {
 
 .footer-contact {
   list-style-type: none;
+}
+
+.resume-link:visited{
+  text-decoration: none;
+}
+
+.link-btn{
+  margin: 5px;
+}
+
+.contact-btn{
+  background-color: blueviolet;
 }
